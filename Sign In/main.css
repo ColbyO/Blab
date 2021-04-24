@@ -1,0 +1,109 @@
+.Header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 770px;
+}
+
+.Back {
+    background-color: #f7f7f8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 500px;
+    height: 470px;
+    border: 3px solid rgba(0, 0, 0, 0.507);
+}
+
+.log_into_blab {
+    position: absolute;
+    margin: center;
+    margin-top: 150px;
+    top: 50px;
+    padding-left: 130px;
+    font-size: 25pt;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.username {
+    width: 480px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin-left: 7px;
+    margin-right: auto;
+    margin-top: 90px;
+    font-size: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.password {
+    width: 480px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin-left: 7px;
+    margin-right: auto;
+    margin-top: 140px;
+    font-size: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.login {
+    background-color: chartreuse;
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    display: block;
+    margin-left: 90px;
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.or {
+    position: absolute;
+    display: block;
+    margin-left: 230px;
+    margin-top: 280px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.join {
+    font-size: 20pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    display: block;
+    margin-left: 130px;
+    margin-top: 320px;
+}
+
+.create {
+    background-color: rgb(82, 131, 236);
+    position: absolute;
+    display: block;
+    margin-left: 90px;
+    margin-top: 370px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.forgot {
+    color: blue;
+    font-size: 13px;
+    position: absolute;
+    display: block;
+    margin-top: 177px;
+    margin-left: 15px;
+}

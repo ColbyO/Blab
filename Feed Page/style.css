@@ -1,0 +1,332 @@
+body {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    grid: 60px 200px 240px 240px auto / 420px 371px 500px auto;
+    column-gap: 19px;
+    row-gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.headerTop {
+    display: grid;
+    position: relative;
+    grid: auto / 23.5% 24% 4.5% auto;
+    background-color: #f7f7f8;
+    height: 100%;
+    width: 450%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+
+}
+
+.headerTop > .logo {
+    display: block;
+    position: absolute;
+    grid-column-start: 2;
+    width: 13%;
+    height: 80%;
+    padding-top: 0.5%;
+}
+
+.headerTop > .settings {
+    display: block;
+    position: absolute;
+    grid-column-start: 4;
+    width: 70%;
+    height: 70%;
+    padding-top: 1%;
+ 
+
+}
+
+.profile {
+    background-color: #f7f7f8;
+    display: block;
+    position: relative;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    height: 21.5vh;
+    width: 39.5vh;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.300));
+    border-style: groove;
+}
+
+.message {
+    background-color: #f7f7f8;
+    display: block;
+    position: relative;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    height: 21.5vh;
+    width: 53.5vh;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.300));
+    border-style: groove;
+}
+
+.sendBlab {
+    background-color: #f7f7f8;
+    border-style: none;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 450px;
+    height: 130px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.blabButton {
+    margin-left: 380px;
+    margin-top: 0px;
+    display: block;
+    position: absolute;
+}
+
+.profilePictureProfile {
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-style: solid;
+}
+
+.profileUsername {
+    display: block;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -80px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.profileFollowers {
+    display: block;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -50px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.profileFollowing {
+    display: block;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.searchBar {
+    background-color: #e5e5e5;
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 780px;
+    width: 250px;
+    height: 25px;
+}
+
+.searchButton {
+    background-color: gray;
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1037px;
+    width: 35px;
+    height: 31px;
+}
+
+.searchIcon {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 1044px;
+    pointer-events: none;
+}
+
+.searchIconTest {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: -37px;
+    margin-left: 1012px;
+    pointer-events: none;
+}
+
+.profileSignOut {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 45px;
+    margin-left: 330px;
+}
+
+.feed {
+    display: block;
+    position: absolute;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: auto;
+    width: 95vh;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.feed > div {
+    background-color: #f7f7f8; 
+    display: grid;
+    grid-template-columns: 1.5% 5% 8% 72% 13.5%;
+    grid-template-rows: 10% 35% 45% 10%;
+    width: 95vh;
+    height: 100%;
+    border-radius: 25px;
+    margin-top: 20px;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.300));
+    border-style: groove;
+    
+}
+
+.textMessage { 
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 140px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.messageProfilePic {
+    display: block;
+    position: absolute;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    border-style: solid;
+    
+}
+
+.feed textarea {
+    border-style: none;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin-left: 15px;
+    margin-top: 0px; 
+    width: 740px;
+    height: 25px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+    border-style: groove;
+    border-radius: 25px;
+    text-indent: 20px;
+}
+
+.replySent {
+    display: block;
+    position: absolute;/*
+    grid-column-start: 3;
+    grid-row-start: 3;*/
+    margin-left: 70px;
+    margin-top: 13px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+
+.feed > div > div > input {
+    display: block;
+    position: absolute;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 108px;
+    height: 38px;
+}
+
+.commentDate {
+    display: block;
+    position: absolute;
+    grid-row-start: -5;
+    grid-column-start: 5;
+}
+
+.feed > div > div {
+    display: grid;
+    grid-template: 15% 45% auto / 5% 1% 80% auto;
+    position: absolute;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    width: 100%;
+    height: 110%;
+    margin-top: 00px;
+    border-radius: 20px;
+}
+
+
+.replyDate {
+    display: block;
+    position: absolute;
+    grid-column-start: 4;
+    margin-top: 10%;
+
+}
+
+.feed > div > div > details {
+    display: block;
+    position: absolute;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin-top: -10px;
+    width: 95%;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+    overflow: auto;
+    scroll-padding: 250px;
+    max-height: 95px;
+
+}
+
+.feed > div > div > details > img {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.feed > div > div > details > p {
+    margin-left: 45px;
+    margin-top: -21px;
+    
+}
+
+.feed > div > div > details > summary {
+    display: block;
+    position: relative;
+
+}

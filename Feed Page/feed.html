@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - Blab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headerTop">
+        <img src="../images/FeedLogo.png" class="logo">
+        <input id="searchBar" class="searchBar" placeholder="Search">
+        <input type="button" id="searchButton" class="searchButton" >
+        <img src="../images/search_icon.png" class="searchIcon">
+        <img src="../images/settings.svg" class="settings" id="settings" onclick="settingsDropDown()">
+    </div>
+    <div class="profile">
+        <img src="../images/profile_pic.jpg" class="profilePictureProfile">
+        <p class="profileUsername">John Doe</p>
+        <p class="profileFollowers">0 Followers</p>
+        <p class="profileFollowing">0 Following</p>
+        <input type="image" src="../images/signout.png" class="profileSignOut" onclick="signOut()">
+    </div>
+    <div class="message">
+        <textarea id="sendBlab" class="sendBlab" rows="4" cols="50" maxlength ="461" placeholder="Start Blabbing..."></textarea>
+        <input type="image" src="../images/Blab button.png" class="blabButton" onclick="sendComment()">
+    </div>
+    <div class="feed" id="feed">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Blab</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="app.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="Logo">
+        <img src="../images/Logo.png" width="333" height="140" class="Logo">
+    </div>
+    <div class="background">
+        <form name="form1">
+        <div class="topText">Create a New Account.</div>
+        <input id="firstName" class="firstName" placeholder="First Name" name="Check">
+        <input id="lastName" class="lastName" placeholder="Last Name" name="Check">
+        <input id="eMail" class="eMail" placeholder="Email Address" name="Check">
+        <input type="password" id="passWord" class="passWord" placeholder="Password" name="Check">
+        <input type="password" id="confirmPassword" class="confirmPassword" placeholder="Confirm Password" name="Check">
+        <p class="gender">Gender</p>
+        <p class="birthDay">Birthday</p>
+        <div class="genderOptions">
+            <input type="radio"id='male' class="male" name="Check" onclick="onClicked()">
+            <label for="male">Male</label>
+            <input type="radio"id='female' class="female" name="Check" onclick="onClicked()">
+            <label for="female">Female</label>
+            <input type="radio"id='other' class="other" name="Check" onclick="onClicked()">
+            <label for="other">Other</label>
+            <input id="otherGenderChecked" class="otherGenderChecked"  name="Check" disabled>
+        </div>
+        <a href="../Sign In/index.html" class="already">Already have a account? Sign in.</a>
+        <input type="date" id="birthdate" class="birthdate" name="Check">
+        <a>
+        </form>
+            <input type="button" id="create" class="create" value="Create New Account." onclick="createAccount()" >
+        </a>
+    </div>
+    
+</body>
+</html>
